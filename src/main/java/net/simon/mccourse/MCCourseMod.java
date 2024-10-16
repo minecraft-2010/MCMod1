@@ -52,6 +52,9 @@ public class MCCourseMod {
             event.accept(ModItems.Alexandrite);
             event.accept(ModItems.RAW_Alexandrite);
         }
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.Alexandrite_Block);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
