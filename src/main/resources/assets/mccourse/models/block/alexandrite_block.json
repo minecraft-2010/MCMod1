@@ -1,0 +1,6 @@
+{
+  "parent": "item/cube_all",
+  "textures": {
+    "all": "mccourse:block/alexandrite_block"
+  }
+}
