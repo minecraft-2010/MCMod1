@@ -1,3 +1,5 @@
 {
-  "item.mccourse.alexandrite" : "Alexander Erz"
+  "item.mccourse.alexandrite" : "Alexander Erz",
+  "item.mccourse.raw_alexandrite" : "Raw Alexandrite",
+  "block.mccourse.alexandrite_block" : "block of Alexandrite"
 }
