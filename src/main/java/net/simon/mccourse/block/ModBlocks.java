@@ -21,6 +21,9 @@ public class ModBlocks {
     public static final  RegistryObject<Block> Alexandrite_Block = registerBlock("alexandrite_block",
             ()-> new Block(BlockBehaviour.Properties.copy(net.minecraft.world.level.block.Blocks.IRON_BLOCK)));
 
+    public static final  RegistryObject<Block> Raw_Alexandrite_Block = registerBlock("raw_alexandrite_block",
+            ()-> new Block(BlockBehaviour.Properties.copy(net.minecraft.world.level.block.Blocks.IRON_BLOCK)));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toreturn = Blocks.register(name,block);
         registerblockitem(name,toreturn);

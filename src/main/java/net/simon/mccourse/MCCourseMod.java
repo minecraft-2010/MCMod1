@@ -54,6 +54,7 @@ public class MCCourseMod {
         }
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.Alexandrite_Block);
+            event.accept(ModBlocks.Raw_Alexandrite_Block);
         }
     }
 
