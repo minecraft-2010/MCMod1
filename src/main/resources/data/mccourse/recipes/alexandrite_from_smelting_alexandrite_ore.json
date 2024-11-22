@@ -3,9 +3,9 @@
   "category": "misc",
   "cookingtime": 200,
   "experience": 0.1,
-  "group": "coal",
+  "group": "alexandrite",
   "ingredient": {
-    "item": "minecraft:coal_ore"
+    "item": "mccourse:alexandrite_ore"
   },
-  "result": "minecraft:coal"
+  "result": "mccourse:alexandrite"
 }

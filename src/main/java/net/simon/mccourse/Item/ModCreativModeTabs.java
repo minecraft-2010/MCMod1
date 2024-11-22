@@ -20,6 +20,11 @@ public class ModCreativModeTabs {
                 Output.accept(ModItems.RAW_Alexandrite.get());
                 Output.accept(ModBlocks.Alexandrite_Block.get());
                 Output.accept(ModBlocks.Raw_Alexandrite_Block.get());
+                Output.accept(ModBlocks.ALEXANDRITE_ORE.get());
+                Output.accept(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get());
+                Output.accept(ModBlocks.NETHER_ALEXANDRITE_ORE.get());
+                Output.accept(ModBlocks.END_STONE_ALEXANDRITE_ORE.get());
+
             }).build());
 
     public static void register(IEventBus eventBus){

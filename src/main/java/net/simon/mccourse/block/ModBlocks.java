@@ -24,6 +24,19 @@ public class ModBlocks {
     public static final  RegistryObject<Block> Raw_Alexandrite_Block = registerBlock("raw_alexandrite_block",
             ()-> new Block(BlockBehaviour.Properties.copy(net.minecraft.world.level.block.Blocks.IRON_BLOCK)));
 
+    public static final RegistryObject<Block> ALEXANDRITE_ORE = registerBlock("alexandrite_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(net.minecraft.world.level.block.Blocks.STONE)
+                    .strength(5f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> DEEPSLATE_ALEXANDRITE_ORE = registerBlock("deepslate_alexandrite_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(net.minecraft.world.level.block.Blocks.DEEPSLATE)
+                    .strength(5f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> END_STONE_ALEXANDRITE_ORE = registerBlock("end_stone_alexandrite_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(net.minecraft.world.level.block.Blocks.END_STONE)
+                    .strength(5f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> NETHER_ALEXANDRITE_ORE = registerBlock("nether_alexandrite_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(net.minecraft.world.level.block.Blocks.NETHERRACK)
+                    .strength(5f).requiresCorrectToolForDrops()));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toreturn = Blocks.register(name,block);
         registerblockitem(name,toreturn);
