@@ -18,6 +18,8 @@ public class ModCreativModeTabs {
             ()->  CreativeModeTab.builder().icon(()-> new ItemStack(ModItems.Alexandrite.get())).title(Component.translatable("creativetab.course_tab")).displayItems((Parameters, Output) -> {
               Output.accept(ModItems.Alexandrite.get());
                 Output.accept(ModItems.RAW_Alexandrite.get());
+                Output.accept(ModItems.Metal_Detector.get());
+
                 Output.accept(ModBlocks.Alexandrite_Block.get());
                 Output.accept(ModBlocks.Raw_Alexandrite_Block.get());
                 Output.accept(ModBlocks.ALEXANDRITE_ORE.get());
