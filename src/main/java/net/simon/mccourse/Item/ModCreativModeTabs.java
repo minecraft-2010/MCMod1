@@ -27,6 +27,8 @@ public class ModCreativModeTabs {
                 Output.accept(ModBlocks.NETHER_ALEXANDRITE_ORE.get());
                 Output.accept(ModBlocks.END_STONE_ALEXANDRITE_ORE.get());
 
+                Output.accept(ModBlocks.SOUND_BLOCK.get());
+
             }).build());
 
     public static void register(IEventBus eventBus){
